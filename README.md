@@ -14,7 +14,7 @@ The project has been developed using [MMDetection](https://github.com/open-mmlab
 ## BLDD Dataset
 The Bike Lane Damage Detection 2021 Dataset is a dataset created during the four months of this project. It contains 370 images of bike lanes from the Barcelona Metropolitan Area with 677 instances of damages. The dataset is unbalanced with two under-represented classes.
 
-The dataset contains annotations in PASCAL VOC or COCO format of the five following classes:
+The dataset contains annotations in PASCAL VOC and COCO format of the five following classes:
 * D00 - Longitudinal Crack
 * D10 - Transverse Crack
 * D20 - Alligator Crack (under-represented)
@@ -30,7 +30,7 @@ The dataset has been divided between train set (70%), validation set (20%), and 
 A total of 6 experiments have been conducted in this thesis to try to increase the detector performance. Each corresponds to a configuration file:
 
 ### BLDD
-The base detector from the project, used as a reference to evaluate the techniques applied in other experiments. It is based on the faster_rcnn_r50_caffe_fpn_mstrain_1x_coco config from MMDetection, which uses a Faster R-CNN network with an R50-FPN backbone.
+The base detector from the project, used as a reference to evaluate the techniques applied in other experiments. It is based on the *faster_rcnn_r50_caffe_fpn_mstrain_1x_coco* config from MMDetection, which uses a Faster R-CNN network with an R50-FPN backbone.
 
 ### BLDD_BAL
 In the second experiment, the unbalanced problem has been addressed by adding images from the [RDD2020 dataset](https://data.mendeley.com/datasets/5ty2wb6gvg/1) to the training set. A total of 153 images containing the two under-represented classes were added to achieve the balance of the training set. The resulting training set is composed of 412 images with 909 instances.
