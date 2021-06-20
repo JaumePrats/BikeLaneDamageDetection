@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG_4719_jpg.rf.3def7e68a3d5954293558059643e7b3b.jpg</filename>
+	<path>IMG_4719_jpg.rf.3def7e68a3d5954293558059643e7b3b.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>D50</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>224</xmin>
+			<xmax>303</xmax>
+			<ymin>262</ymin>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+</annotation>
