@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG_3982_jpg.rf.877f4e7d8634baa2898fe4b8eeb61d00.jpg</filename>
+	<path>IMG_3982_jpg.rf.877f4e7d8634baa2898fe4b8eeb61d00.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>D40</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>257</xmin>
+			<xmax>379</xmax>
+			<ymin>454</ymin>
+			<ymax>522</ymax>
+		</bndbox>
+	</object>
+</annotation>
